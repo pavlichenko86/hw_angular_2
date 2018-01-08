@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <table>
+    <tr>
+      <td [ngStyle]="{'color':'#ccc'}">{{id}}</td>
+      <td>{{name}}</td>
+      <td [ngStyle]="{'font-weight':'600'}">{{price}}</td>
+      <td>{{description}}</td>
+    </tr>
+    <button [ngStyle]="{'color':'#fff', 'background':'green', 'padding':'5px 15px'}" (click)="plus()">+</button>
+    <button [ngStyle]="{'color':'#fff', 'background':'green', 'padding':'5px 15px', 'margin-left':'20px'}" (click)="minus()">-</button> 
+  </table>
+</div>
+
+
